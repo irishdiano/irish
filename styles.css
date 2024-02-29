@@ -1,0 +1,82 @@
+body {
+    /* background-image:url(k.jpg); */
+    background: url(bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:sans-serif;
+    margin-inline-start: 0cap;
+    padding-inline-start: 0cap;
+}
+
+#myPicture {
+   border: skyblue 3pc;
+   border-radius: 10px;
+   box-shadow: 0 0 30px #12efff;
+}
+
+h1, h2, h3 {
+    
+    color: #1cb0bb;
+}
+
+p {
+    
+    line-height:small;
+    color: white;
+
+}
+
+* {
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+#navigation {
+    display: flex;
+    text-align: center;
+}
+
+nav ul li {
+    /* display: initial; */
+    color: lightgreen;
+    text-align: center;
+    /* margin-inline: 20px; */
+}
+li a.you {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: skyblue;
+    text-decoration: wavy;
+}
+a.you:hover {
+    background-color:palevioletred;
+    font-size: large;
+    font-family:cursive;
+}
+
+div.fullHeight {
+    height: 100vh;
+}
+
+
+div {
+    text-align:center;
+    color:aquamarine;
+    font-size: large;
+    font-style:initial;
+}
+
+div.mainContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.informationContainer {
+    width: 20vw;
+}
+
+a {
+    font-family: times new roman;
+    color: lightgreen;
+}
